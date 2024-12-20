@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Document</title>
+    <meta name="author" content="Borja Recio">
+    <meta name="description" content="Página destinada al juego de Piedra, papel, tijera, lagarto, Spock">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/index.css">
+</head>
+<body> 
+    <h1>Juego de piedra, papel, tijera, lagarto, Spock</h1>
+    <h2>Elige tu movimiento:</h2>
+    <div class="options">
+        <button id="piedra"><img src="src/img/rock.png" alt="Piedra"></button>
+        <button id="papel"><img src="src/img/paper.png" alt="Papel"></button>
+        <button id="tijeras"><img src="src/img/scissors.png" alt="Tijeras"></button>
+        <button id="lagarto"><img src="src/img/lizard.png" alt="Lagarto"></button>
+        <button id="spock"><img src="src/img/spock.png" alt="Spock"></button>
+    </div>
+    <p id="scores">
+        Tu puntuación: <span id="playerScore">0</span><br><br>
+        Puntuación de la máquina: <span id="computerScore">0</span>
+    </p>
+    <p id="result"></p>
+    <script src="src/js/index.js"></script>
+</body>
+</html>
